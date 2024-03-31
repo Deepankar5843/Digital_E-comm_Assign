@@ -1,0 +1,92 @@
+
+.Login {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // width: 120vh;
+
+        background-image: url("../../assets/background.png");
+        /* Replace "your-background-image-url.jpg" with your actual image path */
+       background-size:cover;
+       background-position: center;
+
+    .heading {
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .login-box {
+        padding: 40px;
+                min-width: 4px;
+                border: 1px solid black;
+                border-radius: 4px;
+                background-color: white;
+                margin-left: -600px;
+                // right: 800%;
+                // position:  relative;
+                // width: 700px;
+    }
+
+    label, input {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input {
+        padding: 8px 12px;
+        border-radius: 4px;
+        border: 1px solid black;
+        width: calc(100% - 40px); /* Adjusted width to account for icon width and padding */
+    }
+
+    .password-container {
+        position: relative; /* Added to make the icon positioning relative to this container */
+    }
+
+    .password {
+        padding-right: 40px; /* Added padding-right to account for icon width */
+    }
+
+    .password-toggle-icon {
+        position: absolute;
+        top: 50%;
+        right: 48px; /* Adjusted right value for proper positioning */
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .submit {
+        background-color: #29b4ff;
+        color: white;
+        border: none;
+        margin-top: 16px;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .submit:hover {
+        background-color: #249dde;
+    }
+
+    .subheading {
+        margin-top: 16px;
+    }
+    .forgot-password {
+        position: absolute;
+        top: 82%;
+        right: 56%;
+        margin-top: 8px; /* Adjust as needed */
+    }
+}
+
+
+
